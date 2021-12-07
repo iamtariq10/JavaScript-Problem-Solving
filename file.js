@@ -1,50 +1,79 @@
-let today =document.getElementById('today');
-today.textContent=`Today is: ${ getDay()} `;
+// Today Problem
 
-let time = document.getElementById('time');
+// let today =document.getElementById('today');
+// today.textContent=`Today is: ${ getDay()} `;
 
-time.textContent=`Time is: ${getTime()}`
+// let time = document.getElementById('time');
 
-function getTime(){
-    let date = new Date();
-    let d = date.getHours()
-    let min = date.getMinutes()
-    let sec = date.getSeconds()
-    console.log(d)
-    return `${d} : ${min} : ${sec}`
-}
+// time.textContent=`Time is: ${getTime()}`
 
-function getDay(){
+// function getTime(){
+//     let date = new Date();
+//     let d = date.getHours()
+//     let min = date.getMinutes()
+//     let sec = date.getSeconds()
+//     console.log(d)
+//     return `${d} : ${min} : ${sec}`;
+// }
+
+// function getDay(){
 
 
-    let date = new Date();
-    let d=date.getDay()
-    switch(d) {
-        case 0:
-          d="Sunday"
-          break;
-        case 1:
-          d="Monday"
-          break;
-        case 2:
-          d="Tuesday"
-          break;
-        case 3:
-          d="Wednesday"
-          break;
-        case 4:
-          d="Thursday"
-          break;
-        case 5:
-          d="Friday"
-          break;
-        case 6:
-          d="Saturday"
-          break;
+//     let date = new Date();
+//     let d=date.getDay()
+//     switch(d) {
+//         case 0:
+//           d="Sunday"
+//           break;
+//         case 1:
+//           d="Monday"
+//           break;
+//         case 2:
+//           d="Tuesday"
+//           break;
+//         case 3:
+//           d="Wednesday"
+//           break;
+//         case 4:
+//           d="Thursday"
+//           break;
+//         case 5:
+//           d="Friday"
+//           break;
+//         case 6:
+//           d="Saturday"
+//           break;
         
-        default:
-          // code block
-      }
+//         default:
 
-    return d;
-}
+//       }
+
+//     return d;
+// }
+
+
+// Today Problem
+let array = ['true','true','true']
+
+let check = (list) => list.every(item => list.indexOf(item) === 0);
+console.log(check(array))
+
+// function myFunction(arr){
+
+// for(let i=0;i<array.length;i++){
+//   if (array[i] !== array[i+1]) {
+//     console.log("true");
+
+// }
+// else{
+//   console.log("False")
+// }
+//   }
+
+  
+    
+  
+
+// }
+
+// myFunction(array)
