@@ -53,10 +53,10 @@
 
 
 // Today Problem
-let array = ['true','true','true']
+// let array = ['true','true','true']
 
-let check = (list) => list.every(item => list.indexOf(item) === 0);
-console.log(check(array))
+// let check = (list) => list.every(item => list.indexOf(item) === 0);
+// console.log(check(array))
 
 // function myFunction(arr){
 
@@ -77,3 +77,29 @@ console.log(check(array))
 // }
 
 // myFunction(array)
+
+
+
+// Today problem
+
+// Return the percentage of a number
+
+
+// Write a function that takes an object with the properties number and percentage as argument
+// Return the given percentage of the number
+
+let obj = {
+    number:100,
+    percentage:50
+}
+
+function myFunction(number,percentage) {
+    let result = ( number * percentage ) / 100
+console.log(result)
+}
+
+myFunction(obj.number,obj.percentage)
+
+
+
+
