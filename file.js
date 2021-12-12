@@ -88,17 +88,53 @@
 // Write a function that takes an object with the properties number and percentage as argument
 // Return the given percentage of the number
 
-let obj = {
-    number:100,
-    percentage:50
+// let obj = {
+//     number:100,
+//     percentage:50
+// }
+
+// function myFunction(number,percentage) {
+//     let result = ( number * percentage ) / 100
+// console.log(result)
+// }
+
+// myFunction(obj.number,obj.percentage)
+
+var Arr=[22,353,23,1,2,55,3,5];
+
+
+for(let i=1;i<Arr.length;i++){
+    for(let j=0;j<i;j++){
+        if(Arr[i]<Arr[j]){
+          
+
+            let x= Arr[i];
+            Arr[i]=Arr[j]
+            Arr[j]=x
+
+
+        }
+    }
 }
 
-function myFunction(number,percentage) {
-    let result = ( number * percentage ) / 100
-console.log(result)
-}
+Arr.forEach(element=>console.log(element))
 
-myFunction(obj.number,obj.percentage)
+
+// var Arr = [1, 7, 2, 8, 3, 4, 5, 0, 9];
+
+// for (var i = 1; i < Arr.length; i++){
+//     for (var j = 0; j < i; j++){
+//         if (Arr[i] < Arr[j]) {
+//           var x = Arr[i];
+//           Arr[i] = Arr[j];
+//           Arr[j] = x;
+//         }
+//     }
+
+//     }
+
+    
+
 
 
 
