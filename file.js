@@ -100,24 +100,28 @@
 
 // myFunction(obj.number,obj.percentage)
 
-var Arr=[22,353,23,1,2,55,3,5];
+// var Arr=[22,353,23,1,2,55,3,5];
 
 
-for(let i=1;i<Arr.length;i++){
-    for(let j=0;j<i;j++){
-        if(Arr[i]<Arr[j]){
+
+// for(let i=0;i<Arr.length;i++){
+//     for(let j=0;j<i;j++){
+//         if(Arr[i]<Arr[j]){
           
 
-            let x= Arr[i];
-            Arr[i]=Arr[j]
-            Arr[j]=x
+//             let x= Arr[i];
+//             Arr[i]=Arr[j]
+//             Arr[j]=x
 
 
-        }
-    }
-}
+//         }
+//     }
+// }
 
-Arr.forEach(element=>console.log(element))
+// Arr.forEach(element=>console.log(element))
+// for(const elemtn of Arr){
+//     console.log(elemtn)
+// }
 
 
 // var Arr = [1, 7, 2, 8, 3, 4, 5, 0, 9];
@@ -139,3 +143,26 @@ Arr.forEach(element=>console.log(element))
 
 
 
+
+// let obj={
+//     firstName:"Tariq",
+//     lastName:"Salamat"
+
+//     }
+    
+//     const {firstName}=obj
+//     console.log(firstName)
+
+// Write a JavaScript for loop that will iterate from 0 to 15. For each iteration, it will check if the current number is odd or even, and display a message to the screen
+
+let arr=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+
+
+for(let i=0;i<arr.length;i++){
+    if(i%2==0){
+        console.log(`${i} is even`)
+    }
+    else{
+        console.log(`${i} is odd`)
+    }
+}
