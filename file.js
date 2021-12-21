@@ -155,14 +155,31 @@
 
 // Write a JavaScript for loop that will iterate from 0 to 15. For each iteration, it will check if the current number is odd or even, and display a message to the screen
 
-let arr=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+// let arr=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
 
 
-for(let i=0;i<arr.length;i++){
-    if(i%2==0){
-        console.log(`${i} is even`)
-    }
-    else{
-        console.log(`${i} is odd`)
-    }
-}
+// for(let i=0;i<arr.length;i++){
+//     if(i%2==0){
+//         console.log(`${i} is even`)
+//     }
+//     else{
+//         console.log(`${i} is odd`)
+//     }
+// }
+
+
+// Write a JavaScript program which iterates the integers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
+
+
+// for(let i=0;i<=100;i++){
+//     if(i%3==0){
+//         console.log(`${i} Fizz`)
+//     }
+//     else if(i%5==0){
+//         console.log(`${i} Buzz`)
+//     }
+//     else if(i%3===0 && i%5===0){
+//         console.log(`${i} FizzBuzz`)
+//     }
+
+// }
